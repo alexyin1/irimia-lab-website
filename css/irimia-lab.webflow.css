@@ -1,0 +1,2056 @@
+body {
+  font-family: "Work Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.body {
+  background-color: #f0f5f5;
+  font-family: "Work Sans", sans-serif;
+  color: #1a1a10;
+  font-size: 16px;
+}
+
+/* canvas {
+  display: block;
+}
+
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
+
+/* #tsparticles {
+  background: #1a1a10;
+} */
+
+.logo-main {
+  height: 3.5rem;
+}
+
+.header-main {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.unordered-list {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.unordered-list.nav-main {
+  display: inline-block;
+  float: right;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.list-item {
+  font-size: 1.25rem;
+  text-align: right;
+}
+
+.link {
+  color: #ff332f;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+  font-family: "Work Sans", sans-serif;
+  color: #ff2b32;
+}
+
+.section-hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 85vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #020202;
+}
+
+.section-hero-heading {
+  width: 66.666666%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8.5%;
+  border-style: none;
+  border-bottom-color: #000;
+  font-family: "Space Mono", sans-serif;
+  font-size: 6.5vh;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+.section-expert {
+  position: relative;
+  overflow: hidden;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  background-color: #e9e9e9;
+}
+
+.heading-expert-primary {
+  position: relative;
+  z-index: 2;
+  width: 58.3333331%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 16.6666666%;
+  padding-bottom: 0.5em;
+  padding-left: 0.25em;
+  background-color: transparent;
+  font-family: "Space Mono", sans-serif;
+  color: #1a1a10;
+  font-size: 2.565625rem;
+  line-height: 1.125em;
+  font-weight: 400;
+}
+
+.navbar {
+  position: static;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+
+.container-2 {
+  position: relative;
+  z-index: 10;
+}
+
+.image {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  height: 100%;
+}
+
+.image-2 {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  height: 60%;
+}
+
+.heading {
+  position: relative;
+  z-index: 2;
+  width: 49.9999998%;
+  margin-top: 20vh;
+  margin-bottom: 0px;
+  margin-left: 33.3333332%;
+  padding-top: 0.5em;
+  padding-left: 0.25em;
+  background-color: rgba(255, 255, 255, 0);
+  color: #1a1a10;
+  font-size: 1.801875rem;
+  font-weight: 400;
+}
+
+.image-3 {
+  width: 100%;
+  margin-bottom: -1px;
+  background-image: url("../images/shape-wave-purple.svg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.section-problem {
+  position: relative;
+  margin-top: 12.7vh;
+  margin-bottom: 15vh;
+}
+
+.shape-image {
+  position: absolute;
+  top: 0px;
+  right: 0rem;
+  display: block;
+  width: 24.9999999%;
+}
+
+.shape-image.animate-scroll-up {
+  top: 15vh;
+  width: 30%;
+}
+
+.heading-2 {
+  width: 58.3333331%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8.3333333%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4em;
+  font-weight: 400;
+  text-align: left;
+}
+
+.heading-2.research {
+  margin-top: 29px;
+}
+
+.heading-3 {
+  width: 33.3333332%;
+  margin-top: 3rem;
+  margin-bottom: 0px;
+  margin-left: 8.3333333%;
+  font-size: 1.801875rem;
+  line-height: 1.125em;
+  font-weight: 500;
+}
+
+.section-process {
+  position: relative;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  background-color: #724bc6;
+}
+
+.div-block {
+  background-color: #724bc6;
+}
+
+.section-process-illustration {
+  position: relative;
+  display: block;
+  height: 90vh;
+  max-height: 80rem;
+  padding-top: 10vh;
+  padding-right: 0px;
+  padding-bottom: 10vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1a1a10;
+}
+
+.image-4 {
+  margin-top: -1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5e2e2e;
+  background-color: #99d5c5;
+  background-image: url("../images/Path-56.svg");
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: #000;
+}
+
+.heading-4 {
+  position: relative;
+  z-index: 2;
+  width: 58.3333331%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 33.3333332%;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  background-color: #724bc6;
+  font-family: "Space Mono", sans-serif;
+  color: #f0f5f5;
+  font-size: 2.565625rem;
+  line-height: 1.125em;
+  font-weight: 400;
+}
+
+.image-5 {
+  position: absolute;
+  left: 0px;
+  top: 10%;
+  height: 60%;
+  margin-left: 16.6666666%;
+}
+
+.section-team {
+  display: block;
+  margin-top: 33px;
+  margin-left: 0px;
+  padding-left: 8%;
+}
+
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.column.team-member {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-member-image {
+  width: 80%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  -webkit-perspective: 0px;
+  perspective: 0px;
+  -webkit-transform: skew(0deg, 0deg);
+  -ms-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+}
+
+.team-member-name {
+  margin-top: 1rem;
+  font-family: "Space Mono", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.125em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-member-title {
+  margin-top: 0.5rem;
+  font-size: 1em;
+  line-height: 1.125em;
+  text-align: left;
+}
+
+.team-member {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.team-member.addison {
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+.section-about {
+  position: relative;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #99d5c5;
+}
+
+.image-7 {
+  position: absolute;
+  height: 100%;
+  margin-top: -10vh;
+}
+
+.heading-5 {
+  width: 66.6666664%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8%;
+  font-family: "Space Mono", sans-serif;
+  font-size: 3.2475rem;
+  line-height: 1.125em;
+  font-weight: 400;
+}
+
+.shape-wave-black {
+  height: 11vw;
+  margin-bottom: -1px;
+  background-color: #99d5c5;
+  background-image: url("../images/shape-wave-black.svg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shape-wave-black.privacy-policy {
+  background-color: #f0f5f5;
+}
+
+.footer {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #1a1a10;
+}
+
+.footer.section-wrapper {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.nav-social {
+  display: inline;
+  float: right;
+  clear: none;
+}
+
+.nav-social-img {
+  height: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+.nav-social-img:hover {
+  opacity: 0.7;
+}
+
+.nav-social-item {
+  margin-left: 1rem;
+  float: right;
+}
+
+.link-footer-small {
+  display: inline-block;
+  margin-top: 1.5rem;
+  float: right;
+  font-size: 0.875rem;
+}
+
+.link-footer-small.link-footer {
+  color: #f0f5f5;
+  text-decoration: none;
+}
+
+.link-footer {
+  color: #f0f5f5;
+  font-size: 1.125rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-footer:hover {
+  color: rgba(240, 245, 245, 0.7);
+}
+
+.link-footer.link-footer-small {
+  clear: right;
+  font-size: 0.875rem;
+}
+
+.heading-6 {
+  width: auto;
+  margin: 10px 8.333333333333332% auto;
+  clear: left;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.heading-6.m-10 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+.heading-6.m-10.autism-body {
+  margin-top: 67px;
+}
+
+.heading-6.m-10.cmb-body {
+  margin-top: 70px;
+}
+
+.heading-6.m-10.further {
+  margin-top: 29px;
+}
+
+.heading-6.m-10.white-matter-body {
+  margin-top: 79px;
+}
+
+.heading-6.m-10.cmb-tbi-body {
+  margin-top: 70px;
+}
+
+.heading-6.m-10.white-matter-autism-body {
+  margin-top: 44px;
+}
+
+.heading-6.m-10._4d-path-body {
+  margin-top: 63px;
+}
+
+.heading-6.m-10.npp-body {
+  margin-top: 51px;
+}
+
+.heading-6.m-10.infant-body {
+  margin-top: 44px;
+}
+
+.heading-6.m-10.mobile-tbi-header {
+  margin-top: 38px;
+}
+
+.heading-6.m-10.sexagenarian-body {
+  margin-top: 54px;
+}
+
+.heading-6.m-10.diffusion-body {
+  margin-top: 44px;
+}
+
+.heading-6.m-10.patient-tailored-body {
+  margin-top: 57px;
+}
+
+.heading-6.m-10.functional-neuroimaging-body {
+  margin-top: 41px;
+}
+
+.heading-6.m-10.ibs-body {
+  margin-top: 83px;
+}
+
+.heading-6.m-10.trajectory-header {
+  margin-top: 38px;
+}
+
+.heading-6.m-10.epileptogenic-body {
+  margin-top: 51px;
+}
+
+.heading-6.m-10.longitude-body {
+  margin-top: 35px;
+}
+
+.heading-6.m-10.diffusion-tensor-body {
+  margin-top: 63px;
+}
+
+.heading-6.m-10.epileptiform-body {
+  margin-top: 48px;
+}
+
+.heading-6.m-10.magnet-body {
+  margin-top: 44px;
+}
+
+.heading-6.m-10.long-alterations-body {
+  margin-top: 92px;
+}
+
+.heading-7 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #f0f5f5;
+  font-size: 2.88625rem;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.image-8 {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  height: 70%;
+  -webkit-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+
+.nav-link {
+  position: static;
+  color: #ff332f;
+  font-size: 1.125rem;
+  line-height: 1px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.nav-link:hover {
+  color: rgba(255, 51, 47, 0.8);
+}
+
+.process-illustration-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.process-illustration-container.illustration-container-1 {
+  left: 10%;
+  top: 5%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+.process-illustration-container.illustration-container-2 {
+  top: 5%;
+  right: 10vw;
+}
+
+.process-illustration-container.illustration-container-3 {
+  right: 10px;
+  bottom: 5%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.process-illustration-container.illustration-container-4 {
+  left: 10px;
+  bottom: 5%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.process-illustration-image {
+  height: 5rem;
+}
+
+.process-illustration-text {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  color: #f0f5f5;
+  font-size: 2.565625rem;
+}
+
+.container-3 {
+  position: relative;
+}
+
+.shape-wave {
+  width: 100%;
+  min-height: 10.84745763vw;
+  background-color: #1a1a10;
+  background-image: url("../images/shape-wave-black.svg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.div-block-6 {
+  background-color: #99d5c5;
+}
+
+.shape-wave-purple {
+  position: relative;
+  z-index: 1;
+  height: 11vw;
+  margin-bottom: -1px;
+  background-image: url("../images/shape-wave-purple.svg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shape-angles-purple {
+  height: 11vw;
+  margin-top: -1px;
+  padding-right: 0px;
+  background-image: url("../images/shape-angles-purple.svg");
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.shape-wave-back {
+  height: 11vw;
+  background-image: url("../images/shape-wave-black.svg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: translate(0px, 100%);
+  -ms-transform: translate(0px, 100%);
+  transform: translate(0px, 100%);
+}
+
+.section {
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  background-color: #f0f5f5;
+}
+
+.privacy-policy {
+  background-color: #f0f5f5;
+}
+
+.html-embed {
+  margin-right: 8.3333333%;
+  margin-left: 8.3333333%;
+}
+
+.animate-scroll-up.image {
+  top: 0px;
+  right: 0px;
+}
+
+.div-block-7 {
+  max-width: 80vw;
+  padding-left: 8.3333333333%;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.container-5 {
+  background-color: rgba(22, 22, 22, 0);
+  color: #ff2b32;
+}
+
+.nav-menu {
+  background-color: transparent;
+  color: #ff2b32;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.navbar-2 {
+  color: #ff2b32;
+}
+
+.heading-8 {
+  margin-top: 22px;
+  margin-left: 8%;
+  font-family: "Space Mono", sans-serif;
+  font-size: 30px;
+}
+
+.heading-8.further {
+  margin-top: 57px;
+}
+
+.heading-8.selected {
+  margin-top: -79px;
+}
+
+.bold-text {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.bold-text.former {
+  margin-top: 41px;
+}
+
+.columns {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 8.33333333333%;
+  padding-left: 8.3333333333333%;
+}
+
+.heading-9 {
+  position: relative;
+  top: 22px;
+  display: block;
+  margin-left: 8.333333333333em;
+  padding-left: 6.25em;
+  float: none;
+  clear: none;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 600;
+}
+
+.heading-9.autism {
+  top: 25px;
+}
+
+.heading-9.cmb-header {
+  top: 29px;
+}
+
+.heading-9.white-matter-autism {
+  margin-top: -6px;
+}
+
+.heading-9.npp-header {
+  margin-top: 6px;
+}
+
+.heading-9.infant-header {
+  margin-top: -10px;
+}
+
+.heading-9.mobile-tbi-header {
+  margin-top: -6px;
+}
+
+.heading-9.sexagenarian-header {
+  margin-top: -3px;
+}
+
+.heading-9.multimodal-header {
+  margin-top: 3px;
+}
+
+.heading-9.diffusion-header {
+  margin-top: -16px;
+}
+
+.heading-9._4d-path-header {
+  margin-top: 10px;
+}
+
+.heading-9.q-regimes-header {
+  margin-top: 3px;
+}
+
+.heading-9.stat-estimation-header {
+  margin-top: 6px;
+}
+
+.heading-9.functional-neuroimaging-header {
+  margin-top: -10px;
+}
+
+.heading-9.trajectory-header {
+  margin-top: -13px;
+}
+
+.heading-9.epileptogenic-header {
+  margin-top: -6px;
+}
+
+.heading-9.longitude-header {
+  margin-top: -16px;
+}
+
+.heading-9.diffusion-tensor-header {
+  margin-top: 6px;
+}
+
+.heading-9.epileptiform-header {
+  margin-top: -6px;
+}
+
+.heading-9.magnet-header {
+  margin-top: -13px;
+}
+
+.heading-9.long-alterations-header {
+  margin-top: 32px;
+}
+
+.image-10 {
+  position: static;
+  display: block;
+  margin-left: 8.3333333333%;
+  float: left;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.32);
+}
+
+.italic-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container-6 {
+  margin-top: 25px;
+}
+
+.bold-text-2 {
+  color: #fff;
+}
+
+.heading-10 {
+  font-family: "Space Mono", sans-serif;
+  color: #fff;
+}
+
+.link-2 {
+  display: block;
+  color: #fff;
+}
+
+.link-2.footer-link {
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-2.footer-link:hover {
+  text-decoration: underline;
+}
+
+.link-3 {
+  display: block;
+  margin-left: 8%;
+}
+
+.footer-2 {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.footer-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer-logo-link {
+  max-height: 60px;
+  min-width: 60px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.footer-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 0% 50%;
+  object-position: 0% 50%;
+}
+
+.footer-heading {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 10px;
+  color: #444;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.button {
+  margin-left: 8%;
+}
+
+.button.connect {
+  margin-top: 25px;
+}
+
+.contact-form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-form-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  margin-right: 8%;
+  margin-left: 8%;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.heading-11 {
+  padding-left: 8%;
+  font-family: "Space Mono", sans-serif;
+}
+
+.text-block {
+  margin-left: 8%;
+  padding-right: 8%;
+}
+
+.text-block.research-info-block {
+  margin-bottom: 25px;
+}
+
+.text-block.research-text-block {
+  margin-bottom: 16px;
+}
+
+.submit-button {
+  margin-left: 8%;
+}
+
+.container-7 {
+  margin-top: -29px;
+  margin-bottom: 54px;
+}
+
+.text-block-2 {
+  margin-top: 3px;
+  margin-left: 8%;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.heading-12 {
+  margin-left: 8%;
+  font-family: "Space Mono", sans-serif;
+}
+
+.italic-text-2 {
+  font-style: normal;
+}
+
+.italic-text-3 {
+  font-style: normal;
+}
+
+.italic-text-4 {
+  font-style: normal;
+}
+
+@media screen and (max-width: 991px) {
+  .section-hero {
+    min-height: 85vh;
+  }
+  .section-hero-heading {
+    width: 83%;
+    font-size: 3.653125rem;
+  }
+  .image {
+    width: 16.6666666%;
+  }
+  .shape-image {
+    margin-top: 10vw;
+  }
+  .heading-3 {
+    width: 66.667%;
+    margin-left: 16.6666666%;
+  }
+  .heading-4 {
+    width: 74.9993331%;
+    margin-left: 16.6666666%;
+  }
+  .image-5 {
+    margin-left: 8.333%;
+  }
+  .section-team {
+    padding-left: 0%;
+  }
+  .image-7 {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .heading-5 {
+    width: 83.34%;
+    margin-left: 8.333%;
+  }
+  .footer {
+    position: static;
+  }
+  .link-footer {
+    font-size: 1rem;
+  }
+  .heading-6 {
+    margin-left: 8.33333333333%;
+  }
+  .heading-6.m-10 {
+    margin-top: 38px;
+  }
+  .heading-6.m-10.autism-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.cmb-body {
+    margin-top: 38px;
+    margin-bottom: 20px;
+  }
+  .heading-6.m-10.further {
+    margin-top: 32px;
+    margin-bottom: auto;
+  }
+  .heading-6.m-10.white-matter-body {
+    margin-top: 67px;
+  }
+  .heading-6.m-10.cmb-tbi-body {
+    margin-top: 54px;
+  }
+  .heading-6.m-10.white-matter-autism-body {
+    margin-top: 32px;
+  }
+  .heading-6.m-10._4d-path-body {
+    margin-top: 44px;
+  }
+  .heading-6.m-10.npp-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.infant-body {
+    margin-top: 35px;
+  }
+  .heading-6.m-10.mobile-tbi-header {
+    margin-top: 19px;
+  }
+  .heading-6.m-10.sexagenarian-body {
+    margin-top: 38px;
+  }
+  .heading-6.m-10.diffusion-body {
+    margin-top: 35px;
+  }
+  .heading-6.m-10.patient-tailored-body {
+    margin-top: 44px;
+  }
+  .heading-6.m-10.stat-estimation-body {
+    margin-top: 44px;
+  }
+  .heading-6.m-10.functional-neuroimaging-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.ibs-body {
+    margin-top: 60px;
+  }
+  .heading-6.m-10.trajectory-header {
+    margin-top: 29px;
+  }
+  .heading-6.m-10.epileptogenic-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.longitude-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.diffusion-tensor-body {
+    margin-top: 48px;
+  }
+  .heading-6.m-10.epileptiform-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.magnet-body {
+    margin-top: 29px;
+  }
+  .heading-6.m-10.long-alterations-body {
+    margin-top: 73px;
+  }
+  .image-8 {
+    top: 20%;
+    height: 60%;
+  }
+  .process-illustration-container.illustration-container-1 {
+    left: 0%;
+  }
+  .process-illustration-container.illustration-container-2 {
+    right: 0%;
+  }
+  .process-illustration-container.illustration-container-3 {
+    right: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .process-illustration-container.illustration-container-4 {
+    left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .div-block-7 {
+    padding-right: 8.3333333333%;
+  }
+  .heading-8 {
+    margin-top: -102px;
+  }
+  .heading-8.irimia {
+    margin-top: 16px;
+  }
+  .heading-9 {
+    top: 10px;
+    padding-left: 5.2em;
+  }
+  .heading-9.autism {
+    top: 10px;
+    margin-top: -10px;
+  }
+  .heading-9.cmb-header {
+    top: 19px;
+    margin-top: 0px;
+  }
+  .heading-9.white-matter-autism {
+    margin-top: 6px;
+  }
+  .heading-9.npp-header {
+    margin-top: -6px;
+  }
+  .heading-9.infant-header {
+    margin-top: 0px;
+  }
+  .heading-9.diffusion-header {
+    margin-top: -3px;
+  }
+  .heading-9.trajectory-header {
+    margin-top: -3px;
+  }
+  .heading-9.longitude-header {
+    margin-top: -3px;
+  }
+  .heading-9.diffusion-tensor-header {
+    margin-top: 19px;
+  }
+  .footer-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    overflow: visible;
+  }
+  .section-hero-heading {
+    font-size: 2.565625rem;
+    line-height: 1.25em;
+  }
+  .heading-expert-primary {
+    padding-bottom: 0em;
+    font-size: 1.801875rem;
+    line-height: 1.25em;
+  }
+  .heading {
+    margin-top: 5rem;
+    font-size: 1.25rem;
+  }
+  .shape-image.animate-scroll-up {
+    position: relative;
+    top: auto;
+    width: 50%;
+    margin-left: 8.33333333333%;
+    float: none;
+  }
+  .shape-image.animate-scroll-up.irimia {
+    margin-bottom: 29px;
+  }
+  .heading-2 {
+    font-size: 1.801875rem;
+  }
+  .heading-2.irimia-bio {
+    position: relative;
+    overflow: visible;
+    width: 80%;
+    margin-right: auto;
+    margin-bottom: -76px;
+    font-size: 1rem;
+    line-height: 1.25em;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  .heading-3 {
+    font-size: 1.25rem;
+  }
+  .section-process {
+    padding-bottom: 10vh;
+  }
+  .heading-4 {
+    font-size: 1.801875rem;
+  }
+  .team-member-image {
+    width: 60%;
+  }
+  .team-member {
+    margin-bottom: 2rem;
+  }
+  .heading-5 {
+    font-size: 1.801875rem;
+  }
+  .shape-wave-black {
+    height: 20vw;
+  }
+  .footer {
+    position: static;
+  }
+  .nav-social {
+    display: block;
+    padding-left: 0px;
+    float: none;
+  }
+  .nav-social-img {
+    float: left;
+  }
+  .nav-social-item {
+    margin-right: 1rem;
+    margin-left: 0rem;
+    float: left;
+  }
+  .link-footer {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .link-footer.link-footer-small {
+    margin-top: 1rem;
+    float: left;
+  }
+  .heading-6.m-10 {
+    margin-top: -6px;
+  }
+  .heading-6.m-10.autism-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.cmb-body {
+    margin-top: 29px;
+  }
+  .heading-6.m-10.white-matter-body {
+    margin-top: 29px;
+  }
+  .heading-6.m-10.cmb-tbi-body {
+    margin-top: 29px;
+  }
+  .heading-6.m-10.imaging-tbi-body {
+    margin-top: 0px;
+  }
+  .heading-6.m-10.white-matter-autism-body {
+    margin-top: -6px;
+  }
+  .heading-6.m-10._4d-path-body {
+    margin-top: -13px;
+  }
+  .heading-6.m-10.npp-body {
+    margin-top: -13px;
+  }
+  .heading-6.m-10.infant-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.mobile-tbi-header {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.sexagenarian-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.diffusion-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.patient-tailored-body {
+    margin-top: -13px;
+  }
+  .heading-6.m-10.stat-estimation-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.functional-neuroimaging-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.ibs-body {
+    margin-top: 25px;
+  }
+  .heading-6.m-10.trajectory-header {
+    margin-top: -13px;
+  }
+  .heading-6.m-10.epileptogenic-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.longitude-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.diffusion-tensor-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.epileptiform-body {
+    margin-top: -10px;
+  }
+  .heading-6.m-10.magnet-body {
+    margin-top: -6px;
+  }
+  .heading-6.m-10.long-alterations-body {
+    margin-top: -6px;
+  }
+  .heading-7 {
+    font-size: 1.801875rem;
+  }
+  .process-illustration-image {
+    height: 3rem;
+  }
+  .process-illustration-text {
+    font-size: 1.801875rem;
+  }
+  .column-2 {
+    display: block;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .column-3 {
+    display: block;
+    clear: left;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .column-4 {
+    display: block;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .column-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .container-3 {
+    display: block;
+  }
+  .heading-8 {
+    margin-top: -54px;
+  }
+  .heading-8.irimia {
+    margin-bottom: -44px;
+  }
+  .heading-9 {
+    top: -10px;
+    padding-right: 8.33333333333%;
+    padding-left: 4.4em;
+  }
+  .heading-9.autism {
+    top: -13px;
+    margin-top: 10px;
+  }
+  .heading-9.cmb-header {
+    margin-top: -19px;
+  }
+  .heading-9.white-matter-autism {
+    margin-top: 10px;
+  }
+  .heading-9.npp-header {
+    margin-top: 10px;
+  }
+  .heading-9.infant-header {
+    margin-top: 10px;
+  }
+  .heading-9.mobile-tbi-header {
+    margin-top: 6px;
+  }
+  .heading-9.sexagenarian-header {
+    margin-top: 10px;
+  }
+  .heading-9.multimodal-header {
+    margin-top: 13px;
+  }
+  .heading-9.diffusion-header {
+    margin-top: 10px;
+  }
+  .heading-9.q-regimes-header {
+    margin-top: 10px;
+  }
+  .heading-9.functional-neuroimaging-header {
+    margin-top: 6px;
+  }
+  .heading-9.trajectory-header {
+    margin-top: 10px;
+  }
+  .heading-9.epileptogenic-header {
+    margin-top: 6px;
+  }
+  .heading-9.longitude-header {
+    margin-top: 10px;
+  }
+  .heading-9.diffusion-tensor-header {
+    margin-top: 6px;
+  }
+  .heading-9.epileptiform-header {
+    margin-top: 10px;
+  }
+  .heading-9.magnet-header {
+    margin-top: 13px;
+  }
+  .heading-9.long-alterations-header {
+    margin-top: 16px;
+  }
+  .link-2.footer-link {
+    clear: none;
+  }
+  .footer-2 {
+    padding: 40px 20px;
+  }
+  .footer-image {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .contact-form {
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section-hero {
+    min-height: 0vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+  }
+  .section-hero-heading {
+    font-size: 1.801875rem;
+  }
+  .section-expert {
+    overflow: hidden;
+  }
+  .heading-expert-primary {
+    width: 83%;
+    margin-left: 8.5%;
+  }
+  .navbar {
+    margin-top: 1rem;
+  }
+  .heading {
+    width: 83%;
+    margin-left: 8.5%;
+  }
+  .image-3 {
+    width: 200vw;
+    height: auto;
+    max-width: none;
+    margin-left: -50vw;
+  }
+  .shape-image.animate-scroll-up.irimia {
+    display: block;
+    overflow: auto;
+    width: auto;
+    max-width: none;
+  }
+  .heading-2 {
+    width: 83%;
+  }
+  .heading-2.irimia-bio {
+    margin-bottom: -95px;
+  }
+  .heading-2.past-decades {
+    font-size: 1rem;
+  }
+  .heading-2.research {
+    font-size: 1rem;
+  }
+  .heading-3 {
+    width: 83%;
+    margin-left: 8.5%;
+  }
+  .section-process {
+    overflow: hidden;
+  }
+  .div-block {
+    overflow: hidden;
+  }
+  .section-process-illustration {
+    height: auto;
+    max-height: none;
+    padding-top: 0vh;
+    padding-bottom: 5vh;
+    padding-left: 8.5%;
+  }
+  .heading-4 {
+    width: 83%;
+    margin-left: 8.5%;
+    padding-top: 0.25em;
+  }
+  .image-5 {
+    height: 90%;
+    max-width: none;
+    margin-left: -8.333%;
+  }
+  .team-member-image {
+    width: 80%;
+  }
+  .team-member-name {
+    font-size: 1.25rem;
+  }
+  .heading-5 {
+    font-size: 1.801875rem;
+  }
+  .shape-wave-black {
+    overflow: hidden;
+    height: 30vw;
+    background-position: 100% 100%;
+    background-size: cover;
+  }
+  .nav-social {
+    display: block;
+    float: none;
+  }
+  .nav-social-img {
+    float: none;
+  }
+  .link-footer.link-footer-small {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  .heading-6 {
+    width: 83%;
+    margin-left: 8.3333333333%;
+    font-size: 1rem;
+    line-height: 1.25em;
+  }
+  .heading-6.m-10 {
+    margin-top: auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .heading-6.m-10.autism-body {
+    margin-top: auto;
+  }
+  .heading-6.m-10.cmb-body {
+    margin-top: auto;
+  }
+  .heading-6.m-10.white-matter-body {
+    margin-top: -3px;
+  }
+  .heading-6.m-10.cmb-tbi-body {
+    margin-top: -6px;
+  }
+  .heading-6.m-10.imaging-tbi-body {
+    margin-top: 10px;
+  }
+  .heading-6.m-10._4d-path-body {
+    margin-top: 10px;
+  }
+  .heading-6.m-10.npp-body {
+    margin-top: 0px;
+  }
+  .heading-6.m-10.infant-body {
+    margin-top: 0px;
+  }
+  .heading-6.m-10.mobile-tbi-header {
+    margin-top: 3px;
+  }
+  .heading-6.m-10.sexagenarian-body {
+    margin-top: 3px;
+  }
+  .heading-6.m-10.diffusion-body {
+    margin-top: 0px;
+  }
+  .heading-6.m-10.patient-tailored-body {
+    margin-top: -3px;
+  }
+  .heading-6.m-10.stat-estimation-body {
+    margin-top: -3px;
+  }
+  .heading-6.m-10.functional-neuroimaging-body {
+    margin-top: -6px;
+  }
+  .heading-6.m-10.ibs-body {
+    margin-top: -3px;
+  }
+  .heading-6.m-10.trajectory-header {
+    margin-top: -3px;
+  }
+  .heading-6.m-10.epileptogenic-body {
+    margin-top: 6px;
+  }
+  .heading-6.m-10.longitude-body {
+    margin-top: -3px;
+  }
+  .heading-6.m-10.diffusion-tensor-body {
+    margin-top: -6px;
+  }
+  .heading-6.m-10.epileptiform-body {
+    margin-top: -3px;
+  }
+  .heading-7 {
+    position: static;
+    margin-bottom: 1em;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    font-size: 2.565625rem;
+    line-height: 1.25em;
+    text-align: left;
+  }
+  .process-illustration-container {
+    position: static;
+    margin-bottom: 2em;
+  }
+  .process-illustration-container.illustration-container-1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .process-illustration-container.illustration-container-2 {
+    margin-left: 1em;
+  }
+  .process-illustration-container.illustration-container-3 {
+    margin-left: 2em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .process-illustration-container.illustration-container-4 {
+    margin-bottom: 0em;
+    margin-left: 3em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .div-block-3 {
+    overflow: hidden;
+  }
+  .div-block-4 {
+    overflow: hidden;
+  }
+  .div-block-5 {
+    overflow: hidden;
+  }
+  .image-9 {
+    width: 200vw;
+    max-width: none;
+    margin-left: -50vw;
+  }
+  .div-block-7 {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .heading-8 {
+    margin-right: 8.3333333333333%;
+    margin-left: 8.333333333333332%;
+  }
+  .heading-8.irimia {
+    margin-bottom: 16px;
+  }
+  .heading-9 {
+    top: auto;
+    display: block;
+    margin-top: 149px;
+    margin-right: 8.333333333%;
+    margin-left: 8.333333333%;
+    padding-left: 0em;
+    clear: left;
+  }
+  .heading-9.autism {
+    top: auto;
+    margin-top: 156px;
+  }
+  .heading-9.cmb-header {
+    top: auto;
+    margin-top: 137px;
+  }
+  .heading-9.white-matter-autism {
+    margin-top: 114px;
+  }
+  .heading-9.npp-header {
+    margin-top: 117px;
+  }
+  .heading-9.infant-header {
+    margin-top: 114px;
+  }
+  .heading-9.mobile-tbi-header {
+    margin-top: 92px;
+  }
+  .heading-9.sexagenarian-header {
+    margin-top: 130px;
+  }
+  .heading-9.multimodal-header {
+    margin-top: 114px;
+  }
+  .heading-9.diffusion-header {
+    margin-top: 143px;
+  }
+  .heading-9._4d-path-header {
+    margin-top: 146px;
+  }
+  .heading-9.q-regimes-header {
+    margin-top: 121px;
+  }
+  .heading-9.patient-tailored-header {
+    margin-top: 127px;
+  }
+  .heading-9.stat-estimation-header {
+    margin-top: 127px;
+  }
+  .heading-9.functional-neuroimaging-header {
+    margin-top: 89px;
+  }
+  .heading-9.trajectory-header {
+    margin-top: 83px;
+  }
+  .heading-9.epileptogenic-header {
+    margin-top: 98px;
+  }
+  .heading-9.longitude-header {
+    margin-top: 117px;
+  }
+  .heading-9.diffusion-tensor-header {
+    margin-top: 124px;
+  }
+  .heading-9.epileptiform-header {
+    margin-top: 117px;
+  }
+  .heading-9.magnet-header {
+    margin-top: 105px;
+  }
+  .heading-9.long-alterations-header {
+    margin-top: 197px;
+  }
+  .container-6 {
+    margin-top: -3px;
+  }
+  .bold-text-3 {
+    font-weight: 600;
+  }
+  .bold-text-4 {
+    font-weight: 600;
+  }
+  .bold-text-5 {
+    font-weight: 600;
+  }
+  .footer-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .footer-flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer-logo-link {
+    height: 60px;
+  }
+  .footer-heading {
+    margin-top: 20px;
+  }
+}
+
+#w-node-e3df991bc471-bd738013 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-e3df991bc461-bd738013 {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-e3df991bc465-bd738013 {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-e3df991bc469-bd738013 {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-e3df991bc46d-bd738013 {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+}
