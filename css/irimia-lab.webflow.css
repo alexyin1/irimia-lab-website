@@ -1,5 +1,5 @@
 body {
-  font-family: "Work Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -7,24 +7,21 @@ body {
 
 .body {
   background-color: #f0f5f5;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #1a1a10;
   font-size: 16px;
 }
 
-canvas {
-  display: block;
-}
-
 #tsparticles {
   position: absolute;
-  z-index: -20;
+  z-index: 0;
   width: 100%;
   height: 100%;
 }
 
 .logo-main {
-  height: 3.5rem;
+  height: 5rem;
+  color: #fff;
 }
 
 .header-main {
@@ -88,7 +85,8 @@ canvas {
   top: 0px;
   right: 0px;
   z-index: 10;
-  font-family: "Work Sans", sans-serif;
+  padding-bottom: 0px;
+  font-family: 'Work Sans', sans-serif;
   color: #ff2b32;
 }
 
@@ -97,7 +95,8 @@ canvas {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 85vh;
+  height: auto;
+  min-height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -106,17 +105,18 @@ canvas {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: none;
+  background-color: #1a1a10;
 }
 
 .section-hero-heading {
   width: 66.666666%;
+  position: relative;
+  margin-left: 16%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 8.5%;
   border-style: none;
   border-bottom-color: #000;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   font-size: 6.5vh;
   line-height: 1em;
   font-weight: 400;
@@ -140,7 +140,7 @@ canvas {
   padding-bottom: 0.5em;
   padding-left: 0.25em;
   background-color: transparent;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   color: #1a1a10;
   font-size: 2.565625rem;
   line-height: 1.125em;
@@ -191,7 +191,7 @@ canvas {
 .image-3 {
   width: 100%;
   margin-bottom: -1px;
-  background-image: url("../images/shape-wave-purple.svg");
+  background-image: url('../images/shape-wave-purple.svg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -224,7 +224,7 @@ canvas {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 8.3333333%;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.4em;
   font-weight: 400;
@@ -281,7 +281,7 @@ canvas {
   border-width: 1px;
   border-color: #5e2e2e;
   background-color: #99d5c5;
-  background-image: url("../images/Path-56.svg");
+  background-image: url('../images/Path-56.svg');
   background-position: 50% 0px;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -301,7 +301,7 @@ canvas {
   padding-bottom: 1em;
   padding-left: 0.5em;
   background-color: #724bc6;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   color: #f0f5f5;
   font-size: 2.565625rem;
   line-height: 1.125em;
@@ -358,7 +358,7 @@ canvas {
 
 .team-member-name {
   margin-top: 1rem;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   font-size: 1.6rem;
   line-height: 1.125em;
   font-weight: 700;
@@ -397,7 +397,7 @@ canvas {
   position: relative;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  background-color: #99d5c5;
+  background-color: #b499d5;
 }
 
 .image-7 {
@@ -411,7 +411,7 @@ canvas {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 8%;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   font-size: 3.2475rem;
   line-height: 1.125em;
   font-weight: 400;
@@ -421,7 +421,7 @@ canvas {
   height: 11vw;
   margin-bottom: -1px;
   background-color: #99d5c5;
-  background-image: url("../images/shape-wave-black.svg");
+  background-image: url('../images/shape-wave-black.svg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -500,7 +500,7 @@ canvas {
   width: auto;
   margin: 10px 8.333333333333332% auto;
   clear: left;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 12px;
   line-height: 15px;
   font-weight: 400;
@@ -630,15 +630,23 @@ canvas {
 
 .nav-link {
   position: static;
-  color: #ff332f;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #3cbbe1;
   font-size: 1.125rem;
   line-height: 1px;
   font-weight: 700;
   text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .nav-link:hover {
-  color: rgba(255, 51, 47, 0.8);
+  color: #c0f;
+}
+
+.nav-link.w--current:hover {
+  color: #c0f;
 }
 
 .process-illustration-container {
@@ -702,13 +710,14 @@ canvas {
 
 .container-3 {
   position: relative;
+  padding-top: 30px;
 }
 
 .shape-wave {
   width: 100%;
   min-height: 10.84745763vw;
   background-color: #1a1a10;
-  background-image: url("../images/shape-wave-black.svg");
+  background-image: url('../images/shape-wave-black.svg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -724,7 +733,7 @@ canvas {
   z-index: 1;
   height: 11vw;
   margin-bottom: -1px;
-  background-image: url("../images/shape-wave-purple.svg");
+  background-image: url('../images/shape-wave-purple.svg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -734,14 +743,14 @@ canvas {
   height: 11vw;
   margin-top: -1px;
   padding-right: 0px;
-  background-image: url("../images/shape-angles-purple.svg");
+  background-image: url('../images/shape-angles-purple.svg');
   background-position: 50% 0px;
   background-size: cover;
 }
 
 .shape-wave-back {
   height: 11vw;
-  background-image: url("../images/shape-wave-black.svg");
+  background-image: url('../images/shape-wave-black.svg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -844,7 +853,7 @@ canvas {
 .heading-8 {
   margin-top: 22px;
   margin-left: 8%;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   font-size: 30px;
 }
 
@@ -884,7 +893,7 @@ canvas {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 1em;
   line-height: 1.25em;
   font-weight: 600;
@@ -987,7 +996,9 @@ canvas {
 }
 
 .container-6 {
-  margin-top: 25px;
+  margin-top: 60px;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .bold-text-2 {
@@ -995,7 +1006,7 @@ canvas {
 }
 
 .heading-10 {
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
   color: #fff;
 }
 
@@ -1005,7 +1016,7 @@ canvas {
 }
 
 .link-2.footer-link {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #fff;
   font-size: 12px;
   text-decoration: none;
@@ -1115,7 +1126,7 @@ canvas {
 
 .heading-11 {
   padding-left: 8%;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
 }
 
 .text-block {
@@ -1136,8 +1147,9 @@ canvas {
 }
 
 .container-7 {
-  margin-top: -29px;
+  margin-top: 0px;
   margin-bottom: 54px;
+  padding-top: 15px;
 }
 
 .text-block-2 {
@@ -1149,7 +1161,7 @@ canvas {
 
 .heading-12 {
   margin-left: 8%;
-  font-family: "Space Mono", sans-serif;
+  font-family: 'Space Mono', sans-serif;
 }
 
 .italic-text-2 {
@@ -2051,3 +2063,4 @@ canvas {
     grid-row-end: span 1;
   }
 }
+
